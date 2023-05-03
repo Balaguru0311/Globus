@@ -1,38 +1,394 @@
-.App {
+.outer{
+  background: aqua;
+  height:fit-content;
+  padding:50px;
+}
+.containers{
+  padding:20px 50px 0 50px;
+}
+.bell > i{
+  position: absolute;
+  right:150px;
+  top:100px;
+}
+.navbars{
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+  padding: 10px 0px;
+}
+.image{
+  margin:20px 20px 10px 35px;
+}
+.image2{
+  width:90%;
+  height:90%;
+}
+.ul{
+  padding:0px 0px;
+  list-style: none;
+  
+}
+i{
+  margin:0 20px 0 20px;
+}
+
+li:nth-child(1){
+  background-color: grey;
+  opacity: 50%;
+  width:80%;
+  border-radius: 5px;
+}
+li:nth-child(7){
+  @media (min-width:1200px){
+    position:relative;
+    top:200px;
+  }
+}
+li:nth-child(8){
+  @media (min-width:1200px){
+  position:relative;
+  top:200px;
+  }
+}
+.col2,.col23{
+  background-color:antiquewhite;
+  padding:50px;
+}
+.col23{
+  border-radius: 0 10px 10px 0;
+}
+.Card{
+  margin:10px 50px;
+  color:grey;
+}
+.Card h4 {
+  font-weight: 700;
+}
+.Card h6 {
+  font-weight: 400;
+}
+.Card p {
+  font-weight: 300;
+  font-size: 16px;
+  margin:20px 0 0 0;
+}
+.Card2{
+  background-color: rgb(120, 120, 245);
+  width:90%;
+  height:fit-content;
+  padding:60px 30px;
+  margin:10px 50px;
+  border-radius: 10px;
+  color:white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Card2 > button {
+  padding:10px 20px;
+  border-radius: 10px;
+}
+.Wrapper{
+  display:flex;
+  gap:20px;
+  margin:10px 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .innerWrapper{
+  width:50%;
+  height:50%;
+} */
+.Col3{
+  display:flex;
+  padding:10px 20px 0px 20px;
+  background:white;
+  width:350px;
+  height:100px;
+  border-radius: 10px;
+  margin:10px 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.number{
+  margin:20px 0 10px 10px;
+  width:200%;
+}
+.para{
+  margin:-10px 0 10px 10px;
+  width:200%;
+}
+.icon > i{
+  margin:20px 0px 40px 0px;
+  background-color: blue;
+  width:40px;
+  height:40px;
+  padding:10px;
+  color:white;
+  border-radius: 50%;
+}
+.icon2 > i{
+  margin:20px 0px 30px 0px;
+  background-color: red;
+  width:40px;
+  height:40px;
+  padding:12px;
+  color:white;
+  border-radius: 50%;
+}
+.icon3 > i{
+  margin:20px 0px 30px 0px;
+  background-color: rgb(233, 233, 11);
+  width:40px;
+  height:40px;
+  padding:12px;
+  color:white;
+  border-radius: 50%;
+}
+.arrows > i{
+  position:relative;
+  left:180px;
+  margin-top:30px;
+}
+.arrow > i{
+  position:absolute;
+  right:180px;
+  margin-top:30px;
+}
+.Col4{
+  background:white;
+  width:350px;
+  height:320px;
+  border-radius: 10px;
+  margin:10px;
+}
+.w3-border{
+  border:1px solid grey;
+  border-radius: 5px;
+  margin:0px 20px 30px 20px;
+}
+.w3-grey{
+ background-color: blue;
+ height:12px;
+ width:75%;
+}
+.w3-red{
+  background-color: red;
+  height:12px;
+  width:50%;
+ }
+ .w3-orange{
+  background-color: orange;
+  height:12px;
+  width:25%;
+ }
+.Col4 >h4{
+  margin:0px 20px;
+  padding:20px 0;
+}
+.progressContent{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap:240px;
+  margin:0px 20px -10px 20px;
+  background-color: none;
+}
+.progressContent > p:nth-child(2){
+  position:absolute;
+  right:170px;
+  margin-right:10px;
+}
+.Col5{
+  background:white;
+   width:350px;
+  height:480px;
+  border-radius: 10px;
+  margin:10px;
+ 
+}
+.Col5 > p{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Col5 > p:nth-child(2){
+  font-weight: 700;
+  font-size: 24px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Col5 > img{
+  margin:10px 10px;
+  padding: 5px 0;
+}
+.innerCard{
+  display:flex;
+  padding:10px 20px 0px 20px;
+  background-color: grey;
+  opacity: 50%;
+  border-radius: 10px;
+  margin:20px;
+}
+.innerCard .arrow > i{
+  position:relative;
+  left:100px;
+  margin-top:30px;
+}
+.Col6{
+  background:white;
+  width:350px;
+  height:50px;
+  border-radius: 10px;
+  margin:10px;
+}
+.Col6 > i {
+ position:absolute;
+ right: 320px;
+ margin-top:20px;
+}
+.cardWrapper{
+  margin:40px 0 0 0;
+}
+.cardWrapper > h4{
+  margin: 0px 0 40px 20px;
+}
+@media (max-width:1440px){
+  .Wrapper{
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  .Col3{
+    display:flex;
+    padding:10px 20px 0px 20px;
+    background:white;
+    width:100%;
+    height:100px;
+    border-radius: 10px;
+    margin:10px 10px;
   }
+  .Col4{
+    background:white;
+    width:100%;
+    height:320px;
+    border-radius: 10px;
+    margin:10px;
+  }
+  .Col5{
+    background:white;
+     width:100%;
+    height:480px;
+    border-radius: 10px;
+    margin:10px;
+   
+  }
+  .Col6{
+    background:white;
+    width:100%;
+    height:50px;
+    border-radius: 10px;
+    margin:10px;
+  }
+}
+@media (max-width:1200px){
+  .containers{
+  display:block;
+  }
+  .arrows > i{
+    position: relative;
+     left:490px;
+     margin-top:30px;
+   }
+  .arrow > i{
+   position: absolute;
+    right:170px;
+    margin-top:30px;
+  }
+  .Col6 > i {
+    right: 470px;
+    margin-top:20px;
+   }
+}
+@media (max-width:992px){
+  .Col6 > i {
+    right: 350px;
+    margin-top:20px;
+   }
+   .arrows > i{
+    position: relative;
+     left:250px;
+     margin-top:30px;
+   }
+}
+@media (max-width:500px){
+.outer{
+  background: aqua;
+  height:fit-content;
+  padding:30px;
+}
+.containers{
+  padding:20px 5px 0 5px;
+}
+.navbars{
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+  padding: 10px 0px;
+}
+.nav-list{
+  padding-bottom:100px;
+}
+li{
+  margin:10px 0 0 10px;
+}
+li:nth-child(7){
+  position:relative;
+  top:80px;
+}
+li:nth-child(8){
+  position:relative;
+  top:80px;
+}
+.arrows > i{
+  left:120px;
+  margin-top:30px;
+}
+.arrow > i{
+  right:70px;
+  margin-top:30px;
+}
+.innerCard .arrow > i{
+  position:absolute;
+  right:80px;
+  margin-top:30px;
+}
+.Card2{
+  background-color: rgb(120, 120, 245);
+  width:90%;
+  height:fit-content;
+  padding:30px 30px;
+  margin:10px 20px;
+}
+.Col3{
+  background:white;
+  width:120%;
+  height:100px;
+  border-radius: 10px;
+  margin:10px -20px;
+}
+.Col4{
+  background:white;
+  width:120%;
+  height:320px;
+  border-radius: 10px;
+  margin:10px -20px;
+}
+.Col5{
+  background:white;
+  width:120%;
+  height:480px;
+  border-radius: 10px;
+  margin:10px -20px;
+}
+.Col6{
+  background:white;
+  width:120%;
+  height:50px;
+  border-radius: 10px;
+  margin:10px -20px;
+}
+.Col6 > i {
+  right: 185px;
+  margin-right:20px;
+  margin-top:20px;
+ }
 }
