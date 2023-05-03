@@ -107,7 +107,7 @@ const UI = () => {
                     <h6 className='number'>26789</h6>
                     <p className="para">Likes</p>
                     </div>
-                    <div className='arrows'><i class="fas fa-angle-down" style={{color:"red"}}></i></div>
+                    <div className='arrows'><i className="fas fa-angle-down" style={{color:"red"}}></i></div>
                 </div>
                 </div>
                 
